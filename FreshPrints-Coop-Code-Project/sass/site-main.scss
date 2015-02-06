@@ -6,6 +6,241 @@
 @import "compass/reset";
 
 
-.hi {
-	color: red;
+.FP-nav {
+	.nav > li > a:hover, .nav > li > a:focus {
+		background-color: transparent !important;
+	}
+	a {
+		font-family: "proxima-nova";
+		text-transform: uppercase;
+		color: #075271 !important;
+		font-size: 11px;
+		line-height: 11px !important;
+		padding-top: 30px !important;
+		padding-bottom: 23px !important;
+		letter-spacing: 2px;
+		@media (min-width: 995px) {
+			letter-spacing: 5px;
+		}
+	}
+	a.logo {
+		>img {
+			height: 44px;
+		}
+			padding-top: 10px !important;
+			padding-bottom: 10px !important;
+	}
+	
+	background-image: url("../img/nav-bg.png");
 }
+
+.navbar-toggle {
+	text-align: center;
+	display: block;
+	width: 100%;
+	background-size: contain;
+	padding: 30px !important;
+	margin-right: 0px !important;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("../img/fresh-prints-nav-logo.png") !important;
+}
+
+
+.cta-black-bg {
+	background-image: url("../img/black-transparent.png");
+	display: inline-block;
+	min-height: 150px !important;
+	margin-bottom: 15px;
+}
+.cta-black {
+	color: #FFFFFF;
+	&.amazing-apparel {
+		margin-top: 190px;
+		margin-bottom: 10px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		li {
+			font-family: "proxima-nova";
+			font-weight: 300;
+			margin-bottom: 4px;
+			.glyphicon {
+				margin-right: 5px;
+				top: 2px;
+			}
+		}
+		// @media (min-width: 1200px) {
+		// 	width: 20%;
+		// }
+		// @media (max-width: 1200px) {
+		// 	width: 25%;
+		// }
+	}
+	&.free-designs {
+		display: inline-block;
+		margin-top: 20px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		@media (min-width: 995px)
+		{
+			margin-top: 140px;
+			margin-bottom: 140px;
+		}
+
+		span.sub-text {
+			font-family: "proxima-nova";
+			font-weight: 300;
+		}
+		.glyphicon {
+			font-size: 100px;
+			top: -3px;
+		}
+		.glyph-holder {
+			text-align: center;
+		}
+	}
+	&.campus-managers {
+		display: inline-block;
+		margin-top: 20px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		@media (min-width: 995px)
+		{
+			margin-top: 140px;
+			margin-bottom: 140px;
+		}
+
+		span.sub-text {
+			font-family: "proxima-nova";
+			font-weight: 300;
+		}
+		.glyphicon {
+			font-size: 100px;
+			top: 5px;
+		}
+		.glyph-holder {
+			text-align: center;
+		}
+		a.sub-link {
+			margin-top: 10px;
+			text-align: left;
+			text-decoration: underline;
+		}
+	}
+	h2 {
+		font-family: "proxima-nova";
+		font-size: 26px;
+		color: #FFFFFF;
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+	a.cbutton {
+		width: 100%;
+		display: inline-block;
+		font-size: 20px;
+		color: #FFFFFF;
+		font-family: "proxima-nova";
+		background-color: #2aa4d7;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		margin-bottom: 10px;
+		text-align: center;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	a.sub-link {
+		color: #FFFFFF;
+		font-family: "proxima-nova";
+		text-decoration: underline;
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+	}
+}
+
+
+
+// Overides to Bootstrap Nav Bar
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+.footer {
+	.fnavbar {
+		text-align: center;
+	}
+	.navbar {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		min-height: 0px;
+	}
+	.nav {
+		li{
+			
+			@media (min-width: 768px) {
+				border-right: 1px solid #939597;
+			}
+			&:last-child {
+					border-width: 0px;
+				}
+			a{
+				color: #939597 !important;
+				letter-spacing: 1px;
+				font-family: "proxima-nova";
+				font-size: 12px;
+				padding-bottom: 0px !important;
+				padding-top: 0px !important;
+				padding-left: 20px !important;
+				padding-right: 20px !important;
+			}
+			a:hover {
+				background-color: transparent;
+			}
+		}
+
+	}
+	.copyright-info {
+		color: #939597;
+		font-family: "proxima-nova";
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	img {
+		margin-right: 15px;
+		&:last-child {
+			margin-right: 0px;
+		}
+	}
+	span {
+		margin-right: 15px;
+	}
+}
+
+.panel-image-top {
+	background-image: url("../img/panel.jpg");
+	background-position: center;
+	background-size: cover;
+	// height: 441px;
+	width: 100%;
+	display: inline-block;
+}
+
+.panel-image-footer {
+	background-image: url("../img/panel-footer.jpg");
+	background-position: center;
+	background-size: cover;
+	// height: 441px;
+	width: 100%;
+	display: inline-block;
+}
+
+
+

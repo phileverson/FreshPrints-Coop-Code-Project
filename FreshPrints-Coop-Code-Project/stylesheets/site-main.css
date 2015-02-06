@@ -68,6 +68,262 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 9, ../sass/site-main.scss */
-.hi {
-  color: red;
+.FP-nav {
+  background-image: url("../img/nav-bg.png");
+}
+/* line 10, ../sass/site-main.scss */
+.FP-nav .nav > li > a:hover, .FP-nav .nav > li > a:focus {
+  background-color: transparent !important;
+}
+/* line 13, ../sass/site-main.scss */
+.FP-nav a {
+  font-family: "proxima-nova";
+  text-transform: uppercase;
+  color: #075271 !important;
+  font-size: 11px;
+  line-height: 11px !important;
+  padding-top: 30px !important;
+  padding-bottom: 23px !important;
+  letter-spacing: 2px;
+}
+@media (min-width: 995px) {
+  /* line 13, ../sass/site-main.scss */
+  .FP-nav a {
+    letter-spacing: 5px;
+  }
+}
+/* line 26, ../sass/site-main.scss */
+.FP-nav a.logo {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+/* line 27, ../sass/site-main.scss */
+.FP-nav a.logo > img {
+  height: 44px;
+}
+
+/* line 37, ../sass/site-main.scss */
+.navbar-toggle {
+  text-align: center;
+  display: block;
+  width: 100%;
+  background-size: contain;
+  padding: 30px !important;
+  margin-right: 0px !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/fresh-prints-nav-logo.png") !important;
+}
+
+/* line 50, ../sass/site-main.scss */
+.cta-black-bg {
+  background-image: url("../img/black-transparent.png");
+  display: inline-block;
+  min-height: 150px !important;
+  margin-bottom: 15px;
+}
+
+/* line 56, ../sass/site-main.scss */
+.cta-black {
+  color: #FFFFFF;
+}
+/* line 58, ../sass/site-main.scss */
+.cta-black.amazing-apparel {
+  margin-top: 190px;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/* line 63, ../sass/site-main.scss */
+.cta-black.amazing-apparel li {
+  font-family: "proxima-nova";
+  font-weight: 300;
+  margin-bottom: 4px;
+}
+/* line 67, ../sass/site-main.scss */
+.cta-black.amazing-apparel li .glyphicon {
+  margin-right: 5px;
+  top: 2px;
+}
+/* line 79, ../sass/site-main.scss */
+.cta-black.free-designs {
+  display: inline-block;
+  margin-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+@media (min-width: 995px) {
+  /* line 79, ../sass/site-main.scss */
+  .cta-black.free-designs {
+    margin-top: 140px;
+    margin-bottom: 140px;
+  }
+}
+/* line 90, ../sass/site-main.scss */
+.cta-black.free-designs span.sub-text {
+  font-family: "proxima-nova";
+  font-weight: 300;
+}
+/* line 94, ../sass/site-main.scss */
+.cta-black.free-designs .glyphicon {
+  font-size: 100px;
+  top: -3px;
+}
+/* line 98, ../sass/site-main.scss */
+.cta-black.free-designs .glyph-holder {
+  text-align: center;
+}
+/* line 102, ../sass/site-main.scss */
+.cta-black.campus-managers {
+  display: inline-block;
+  margin-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+@media (min-width: 995px) {
+  /* line 102, ../sass/site-main.scss */
+  .cta-black.campus-managers {
+    margin-top: 140px;
+    margin-bottom: 140px;
+  }
+}
+/* line 113, ../sass/site-main.scss */
+.cta-black.campus-managers span.sub-text {
+  font-family: "proxima-nova";
+  font-weight: 300;
+}
+/* line 117, ../sass/site-main.scss */
+.cta-black.campus-managers .glyphicon {
+  font-size: 100px;
+  top: 5px;
+}
+/* line 121, ../sass/site-main.scss */
+.cta-black.campus-managers .glyph-holder {
+  text-align: center;
+}
+/* line 124, ../sass/site-main.scss */
+.cta-black.campus-managers a.sub-link {
+  margin-top: 10px;
+  text-align: left;
+  text-decoration: underline;
+}
+/* line 130, ../sass/site-main.scss */
+.cta-black h2 {
+  font-family: "proxima-nova";
+  font-size: 26px;
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+/* line 137, ../sass/site-main.scss */
+.cta-black a.cbutton {
+  width: 100%;
+  display: inline-block;
+  font-size: 20px;
+  color: #FFFFFF;
+  font-family: "proxima-nova";
+  background-color: #2aa4d7;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* line 148, ../sass/site-main.scss */
+.cta-black a.cbutton:hover {
+  text-decoration: none;
+}
+/* line 152, ../sass/site-main.scss */
+.cta-black a.sub-link {
+  color: #FFFFFF;
+  font-family: "proxima-nova";
+  text-decoration: underline;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  /* line 166, ../sass/site-main.scss */
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+
+  /* line 172, ../sass/site-main.scss */
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+}
+/* line 177, ../sass/site-main.scss */
+.footer .fnavbar {
+  text-align: center;
+}
+/* line 180, ../sass/site-main.scss */
+.footer .navbar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-height: 0px;
+}
+@media (min-width: 768px) {
+  /* line 186, ../sass/site-main.scss */
+  .footer .nav li {
+    border-right: 1px solid #939597;
+  }
+}
+/* line 191, ../sass/site-main.scss */
+.footer .nav li:last-child {
+  border-width: 0px;
+}
+/* line 194, ../sass/site-main.scss */
+.footer .nav li a {
+  color: #939597 !important;
+  letter-spacing: 1px;
+  font-family: "proxima-nova";
+  font-size: 12px;
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+/* line 204, ../sass/site-main.scss */
+.footer .nav li a:hover {
+  background-color: transparent;
+}
+/* line 210, ../sass/site-main.scss */
+.footer .copyright-info {
+  color: #939597;
+  font-family: "proxima-nova";
+  text-align: center;
+  margin-bottom: 10px;
+}
+/* line 216, ../sass/site-main.scss */
+.footer img {
+  margin-right: 15px;
+}
+/* line 218, ../sass/site-main.scss */
+.footer img:last-child {
+  margin-right: 0px;
+}
+/* line 222, ../sass/site-main.scss */
+.footer span {
+  margin-right: 15px;
+}
+
+/* line 227, ../sass/site-main.scss */
+.panel-image-top {
+  background-image: url("../img/panel.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: inline-block;
+}
+
+/* line 236, ../sass/site-main.scss */
+.panel-image-footer {
+  background-image: url("../img/panel-footer.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: inline-block;
 }
